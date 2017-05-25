@@ -1,0 +1,1 @@
+OPENOCD = openocd -f interface/stlink-v2-1.cfg -c"transport select hla_swd" -f target/nrf51.cfg
