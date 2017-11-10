@@ -39,6 +39,9 @@ It is possible to flash Neuroon's firmware part by part (_Makefile Commands_ bel
 
 ```make flash_all_open``` - burn new alpha firmware with bootloader, DFU and Nordic SoftDevice
 
+```make jlink_all_classic``` - burn classic firmware with bootloader, DFU and Nordic SoftDevice using JLink
+
+```make jlink_all_open_deprecated``` - burn new alpha firmware with bootloader, DFU and Nordic SoftDevice using JLink
 ## Contributing ##
 
 Soon...
