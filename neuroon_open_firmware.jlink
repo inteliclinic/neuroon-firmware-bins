@@ -1,0 +1,11 @@
+device nrf51822
+speed 1000
+si SWD
+connect
+r
+loadfile common/s130_nrf51_2.0.1_softdevice.hex
+loadfile common/nrf51822_xxac_s130_boot_s.hex
+loadfile bin/neuroonOpenFirmware.hex
+r
+g
+exit
