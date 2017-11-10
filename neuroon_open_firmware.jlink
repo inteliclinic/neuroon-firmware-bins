@@ -3,6 +3,9 @@ speed 1000
 si SWD
 connect
 r
+w4 4001e504 2
+w4 4001e50c 1
+sleep 100
 loadfile common/s130_nrf51_2.0.1_softdevice.hex
 loadfile common/nrf51822_xxac_s130_boot_s.hex
 loadfile bin/neuroonOpenFirmware.hex
